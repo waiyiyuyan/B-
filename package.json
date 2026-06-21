@@ -1,14 +1,15 @@
 {
   "name": "bilibili-downloader",
   "version": "1.0.0",
-  "description": "",
+  "description": "一个 Node.js 写的 B 站视频下载工具，支持 DASH 合并、大会员画质、断点续传",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["bilibili", "download", "video", "ffmpeg"],
+  "author": "waiyiyuyan",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
